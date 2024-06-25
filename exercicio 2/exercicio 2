@@ -1,0 +1,37 @@
+// Função que exibe "Olá, mundo!" no console
+function helloWorld() {
+    console.log('Olá, mundo!');
+}
+
+// Função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console
+function helloName(nome) {
+    console.log(`Olá, ${nome}!`);
+}
+
+// Função que recebe um número como parâmetro e retorna o dobro desse número
+function doubleNumber(numero) {
+    return numero * 2;
+}
+
+// Função que recebe três números como parâmetros e retorna a média deles
+function averageOfThree(num1, num2, num3) {
+    return (num1 + num2 + num3) / 3;
+}
+
+// Função que recebe dois números como parâmetros e retorna o maior deles
+function maxOfTwo(num1, num2) {
+    return num1 > num2 ? num1 : num2;
+}
+
+// Função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+function squareNumber(numero) {
+    return numero * numero;
+}
+
+// Exemplos de uso das funções:
+helloWorld(); // Saída: Olá, mundo!
+helloName('Alexandre'); // Saída: Olá, Alexandre!
+console.log(doubleNumber(5)); // Saída: 10
+console.log(averageOfThree(3, 7, 11)); // Saída: 7
+console.log(maxOfTwo(8, 3)); // Saída: 8
+console.log(squareNumber(4)); // Saída: 16
